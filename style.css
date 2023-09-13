@@ -1,12 +1,65 @@
-.logo h3{
-    color: brown;
+/* APPLIES TO ENTIRE PAGE */
+* {
+    background-color: blanchedalmond;
+}
+
+/* LOGO STYLING */
+.logo h1{
+    color:chocolate;
 }
 
 .logo{
     display: flex;
-    border: 2px solid black;
-    display: flex;
+    flex-wrap:wrap;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     vertical-align: middle;
+}
+
+.logo-item{
+    display: flex;
+    margin: 0px;
+    padding: 0px;
+}
+
+/* NAVBAR STYLING */
+.navbar ul{
+    list-style-type: none;
+    background-color:darkorange;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.navbar li{
+    float: left;
+}
+
+.navbar li a{
+    display: block;
+    font-size: medium;
+    background-color:darkorange;
+    color:white;
+    text-align: center;
+    padding: 20px;
+    text-decoration: none;
+}
+
+.navbar li a:hover {    /* allows bg colour to change on hover */
+    background-color:chocolate;
+  }
+
+/* SITE BODY */
+/* FEATURED PHOTO */
+.feat-photo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    vertical-align: middle;
+}
+
+.feat-photo h3{
+    color:chocolate;
 }
